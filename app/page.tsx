@@ -40,7 +40,7 @@ export default async function Home() {
 
         {allTodos.length === 0 ? (
           <div className="text-center py-10 text-gray-500">
-            <p className="text-5xl mb-3">📝</p>
+            <p className="text-5xl mb-3"></p>
             <p className="text-lg font-medium">No tasks yet</p>
             <p>Add your first task above.</p>
           </div>
